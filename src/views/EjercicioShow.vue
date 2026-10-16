@@ -24,7 +24,7 @@
       </button>
 
       <div v-show="isVisible" class="caja-info">
-        <p><strong>✨ Panel de Información Toggleable:</strong></p>
+        <p><strong> Panel de Información Toggleable:</strong></p>
         <p>Este panel utiliza <code>v-show</code>. Si inspeccionas el DOM con F12 cuando está oculto, notarás que la etiqueta sigue ahí pero con la regla <code>style="display: none;"</code>.</p>
       </div>
     </div>

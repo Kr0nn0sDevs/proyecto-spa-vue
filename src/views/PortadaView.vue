@@ -6,17 +6,17 @@
       <p class="subtitulo">Demostración interactiva de directivas condicionales, renderizado de listas y claves de iteración.</p>
     </div>
 
-    <!-- Sección de Integrantes -->
+    
     <div class="card equipo-card">
       <h3>👥 Integrantes del Equipo</h3>
       <ul class="lista-equipo">
         <li><strong>Paola Kasumy Gómez Sánchez</strong></li>
-        <!-- Agrega aquí a los demás integrantes de tu equipo si aplica -->
-        <!-- <li><strong>Nombre del integrante 2</strong></li> -->
+        <li><strong>Brandon Emilio Hernandez Aguilar</strong></li>
+        <li><strong>Christian Eduardo Rosales González</strong></li>
       </ul>
     </div>
 
-    <!-- Menú / Acceso directo a las actividades -->
+    <
     <div class="card menu-card">
       <h3>🚀 Menú de Actividades</h3>
       <p>Selecciona una directiva para explorar su explicación y ejemplo interactivo:</p>

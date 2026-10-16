@@ -134,3 +134,97 @@ li {
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+.estructura {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.estructura h3 {
+  margin-top: 0;
+  font-size: 0.95rem;
+  color: #42b983;
+}
+
+.estructura pre {
+  margin: 0;
+  font-family: 'Fira Code', Consolas, Monaco, monospace;
+  font-size: 0.88rem;
+  overflow-x: auto;
+}
+
+.botones-grupo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.resultado {
+  padding: 10px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+}
+
+.estado {
+  margin: 0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.caja-info {
+  margin-top: 15px;
+  padding: 12px;
+  background: #e6fffa;
+  border-left: 4px solid #42b983;
+  color: #234e52;
+  border-radius: 4px;
+}
+
+.input-grupo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-grupo input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #cbd5e0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.lista-items {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-items li {
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.tabla-datos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tabla-datos th, .tabla-datos td {
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  text-align: left;
+}
+
+.tabla-datos th {
+  background: #edf2f7;
+  color: #2d3748;
+}

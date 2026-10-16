@@ -3,7 +3,8 @@
     <header>
       <h1>Demostración de Directivas de Vue 3</h1>
         <nav class="nav-links">
-          <router-link to="/">v-if / v-else</router-link>
+          <<router-link to="/">Inicio</router-link>
+          <router-link to="/if">v-if / v-else</router-link>
           <router-link to="/show">v-show</router-link>
           <router-link to="/for">v-for</router-link>
           <router-link to="/key">v-bind:key</router-link>

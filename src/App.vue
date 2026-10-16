@@ -2,12 +2,12 @@
   <div id="app">
     <header>
       <h1>Demostración de Directivas de Vue 3</h1>
-      <nav>
-        <router-link to="/v-if">v-if / v-else</router-link> |
-        <router-link to="/v-show">v-show</router-link> |
-        <router-link to="/v-for">v-for</router-link> |
-        <router-link to="/v-bind-key">v-bind:key</router-link>
-      </nav>
+        <nav class="nav-links">
+          <router-link to="/">v-if / v-else</router-link>
+          <router-link to="/show">v-show</router-link>
+          <router-link to="/for">v-for</router-link>
+          <router-link to="/key">v-bind:key</router-link>
+        </nav>
     </header>
     <hr />
     <main>
